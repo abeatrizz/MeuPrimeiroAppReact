@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# 🎬 App de Filmes
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo React Native com Expo que permite explorar filmes populares, buscar filmes e gerenciar uma lista de favoritos.
 
-## Get started
+## ✨ Funcionalidades
 
-1. Install dependencies
+- 📱 Interface moderna e intuitiva
+- 🎯 Lista de filmes populares
+- 🔍 Busca de filmes por título
+- ❤️ Sistema de favoritos com armazenamento local
+- 🌐 Integração com a API do TMDB
+- 🖼️ Exibição de posters e sinopses
+- 🔄 Pull-to-refresh para atualizar a lista
 
-   ```bash
-   npm install
-   ```
+## 🚀 Tecnologias Utilizadas
 
-2. Start the app
+- React Native
+- Expo
+- TypeScript
+- Axios para requisições HTTP
+- AsyncStorage para armazenamento local
+- Expo Router para navegação
+- TMDB API para dados de filmes
 
-   ```bash
-   npx expo start
-   ```
+## 📋 Pré-requisitos
 
-In the output, you'll find options to open the app in a
+- Node.js (versão 14 ou superior)
+- npm ou yarn
+- Expo CLI
+- Um dispositivo móvel com Expo Go instalado ou um emulador
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🔧 Instalação
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone o repositório:
 ```bash
-npm run reset-project
+git clone https://github.com/abeatrizz/MeuPrimeiroAppReact
+cd MeuPrimeiroAppReact
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
+```
 
-## Learn more
+3. Configure a API Key do TMDB:
+   - Crie uma conta em [TMDB](https://www.themoviedb.org/signup)
+   - Obtenha sua API Key em [TMDB Settings](https://www.themoviedb.org/settings/api)
+   - Substitua `SUA_API_KEY_AQUI` no arquivo `constants/Api.ts` pela sua API Key
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Inicie o projeto:
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📱 Como Usar
 
-## Join the community
+1. **Tela Principal**
+   - Visualize os filmes populares
+   - Use a barra de busca para encontrar filmes específicos
+   - Toque no botão de coração para adicionar/remover dos favoritos
+   - Arraste para baixo para atualizar a lista
 
-Join our community of developers creating universal apps.
+2. **Tela de Favoritos**
+   - Acesse através do botão "Favoritos" na tela principal
+   - Visualize todos os filmes favoritados
+   - Remova filmes da lista de favoritos
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🎨 Estrutura do Projeto
+
+```
+├── app/
+│   ├── index.tsx          # Tela principal
+│   ├── favorites.tsx      # Tela de favoritos
+│   └── _layout.tsx        # Configuração de navegação
+├── constants/
+│   └── Api.ts            # Configurações da API
+├── services/
+│   ├── api.ts            # Serviços de API
+│   └── storage.ts        # Serviços de armazenamento local
+└── assets/               # Recursos estáticos
+```
+
+## 🤝 Contribuindo
+
+1. Faça um Fork do projeto
+2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
+3. Faça o Commit das suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Faça o Push para a Branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. 
+
+## 🙏 Agradecimentos
+
+- [TMDB](https://www.themoviedb.org/) pela API de filmes
+- [Expo](https://expo.dev/) pelo framework
+- [React Native](https://reactnative.dev/) pela plataforma
+
+## 📧 Contato
+
+Link do Projeto: [https://github.com/abeatrizz
