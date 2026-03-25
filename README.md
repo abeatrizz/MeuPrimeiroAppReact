@@ -24,12 +24,10 @@ Como gestora de produto, o foco deste MVP foi criar uma interface intuitiva que 
    git clone https://github.com/abeatrizz/MeuPrimeiroAppReact
    cd MeuPrimeiroAppReact
    ```
-
 2. **Instalação de Dependências**: Prepare o ambiente instalando todos os recursos necessários para o funcionamento do software.
    ```bash
    npm install
    ```
-
 3. **Configuração de API (Segurança do Produto)**:
    - Obtenha sua chave em [TMDB Settings](https://www.themoviedb.org/settings/api).
    - No arquivo `constants/Api.ts`, substitua o campo correspondente pela sua API Key para garantir a comunicação segura com o provedor de dados.
@@ -42,7 +40,7 @@ Como gestora de produto, o foco deste MVP foi criar uma interface intuitiva que 
 
 ### 🎨 Estrutura do Projeto (Visão Sistêmica)
 ```
-[cite_start]├── app/               # Telas e Configuração de Navegação
-[cite_start]├── constants/         # Configurações de Integração (API) 
-[cite_start]├── services/          # Camada de Lógica e Armazenamento (Storage)
-[cite_start]└── assets/            # Recursos Visuais do Produto
+├── app/               # Telas e Configuração de Navegação
+├── constants/         # Configurações de Integração (API) 
+├── services/          # Camada de Lógica e Armazenamento (Storage)
+└── assets/            # Recursos Visuais do Produto
