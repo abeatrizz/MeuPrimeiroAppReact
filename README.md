@@ -12,10 +12,10 @@ Como gestora de produto, o foco deste MVP foi criar uma interface intuitiva que 
 * **Experiência do Usuário (UX)**: Implementação de *Pull-to-refresh* e navegação fluida para garantir alta usabilidade.
 
 ### 🛠️ Tecnologias e Arquitetura
-* **React Native & Expo**: Framework escolhido para garantir agilidade na entrega e performance multiplataforma[cite: 200, 209].
-* **TypeScript**: Utilizado para garantir a integridade dos dados e facilitar a manutenção do código[cite: 205].
-* **Axios**: Gerenciamento eficiente de requisições HTTP para a API do TMDB[cite: 58].
-* **Expo Router**: Estrutura de navegação baseada em arquivos, focada em organização e escalabilidade[cite: 16, 140].
+* **React Native & Expo**: Framework escolhido para garantir agilidade na entrega e performance multiplataforma.
+* **TypeScript**: Utilizado para garantir a integridade dos dados e facilitar a manutenção do código.
+* **Axios**: Gerenciamento eficiente de requisições HTTP para a API do TMDB.
+* **Expo Router**: Estrutura de navegação baseada em arquivos, focada em organização e escalabilidade.
 
 ### 🚀 Guia de Execução (Fluxo do Desenvolvedor)
 
